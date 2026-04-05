@@ -1,3 +1,4 @@
+import { Book } from "../Components/Books/Book.types";
 
 export const bookData: Book[] = [
     {
