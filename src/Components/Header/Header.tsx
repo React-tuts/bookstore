@@ -1,12 +1,14 @@
 import React from "react";
 import { HeaderProps } from "./Header.types";
 /**
- *
- * @param HeaderProps
- * @returns Header - JSX
+ * Header component that displays the main page title.
+ * @param {string} title - Text to display in the heading
+ * @returns Header - JSX - containing a h1 with title
  */
-const Header = ({ title }: HeaderProps) => {
-  return <header className="header">{title}</header>;
+export const Header = ({ title }: HeaderProps) => {
+  return (
+    <header className="header">
+      <h1>{title}</h1>
+    </header>
+  );
 };
-
-export default Header;

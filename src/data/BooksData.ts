@@ -38,7 +38,7 @@ export const bookData: Book[] = [
       author: "James Clear",
       description: "A guide to building good habits and breaking bad ones",
       price: 18,
-      coverImage: "books/atomic-habits.jpg",
+      coverImage: "books/atomichabits.jpg",
       outOfStock: true,
     },
     {
@@ -46,7 +46,7 @@ export const bookData: Book[] = [
       author: "Robert Kiyosaki",
       description: "Lessons on financial literacy and wealth building",
       price: 16,
-      coverImage: "books/rich-dad.jpg",
+      coverImage: "books/richdad.jpg",
       outOfStock: false,
     },
   ];

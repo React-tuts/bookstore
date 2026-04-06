@@ -6,3 +6,11 @@ export type Book = {
     coverImage:string,
     outOfStock:boolean
 }
+
+export type BookListProps = {
+    books:Book[]
+}
+
+export type BookItemProps = {
+    book: Book
+}
