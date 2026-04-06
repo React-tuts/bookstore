@@ -8,7 +8,7 @@ import { BookItemProps } from "./Book.types";
  */
 export const BookItem = ({ book }: BookItemProps) => {
   return (
-    <li className="book">
+    <li className={`book ${book.outOfStock ? `out-of-stock` : null}`}>
       <img src={`/images/${book.coverImage}`} alt={`${book.title} book`} />
       <div>
         <h3>{book.title}</h3>

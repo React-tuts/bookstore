@@ -137,7 +137,7 @@ body {
   font-size: 1.6rem;
 }
 
-.book.sold-out {
+.book.out-of-stock {
   color: #888;
 }
 
